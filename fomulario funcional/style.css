@@ -38,6 +38,7 @@ main > form{
 main >p{
     font: normal 20px Arial ;
     color: rgb(134,133,133);
+    padding: 10px;
 }
 form > label{
     text-align: start;
