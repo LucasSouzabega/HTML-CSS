@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*configura header */
+header{
+    background-color: cadetblue;
+    padding: 20px;
+}
+header > h1{
+    text-align: center;
+    font: bold 40px Arial ;
+    color: white;
+}
+header > p{
+    text-align: start;
+    color: white;
+    font: normal 20px Arial;
+
+}
+/*configura main*/
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+main > form{
+     padding: 50px ;
+     margin: 30px;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     align-items: start;
+} 
+main >p{
+    font: normal 20px Arial ;
+    color: rgb(134,133,133);
+}
+form > label{
+    text-align: start;
+    font: normal 20px Arial;
+    color: rgb(134, 133, 133);
+
+}
+form > input{
+    width: 300px;
+    border: none;
+    border-bottom: solid  rgb(148, 146, 146);
+    outline: none;
+    font: normal 20px Arial ;
+    color:rgb(134,133, 133);
+}
+form > button{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 0 5px 10px black;
+    background-color: cadetblue;
+    font: normal 20px Arial;
+    color: white;
+}
+form > p{
+    font: normal 20px Arial ;
+    color:rgb(134,133, 133) ;
+    padding: 20px;
+}
