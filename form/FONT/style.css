@@ -1,0 +1,29 @@
+/* confing form */
+form{
+    position: absolute;left: 50%;top: 50%;transform: translate(-50% , -50%);
+}
+label{
+    font: 200 40px Arial ;color: #AEAEB0;
+
+}
+input{
+    width: 400px;height: 50px;outline: none;
+    border: solid 2px #AEAEB0;padding: 10px;
+    font: normal 20px Arial;color: #AEAEB0;
+}
+input[type ="button"]{
+    width: 200px;height: 60px;margin: 30px 0  0 25%;padding: 10px ;
+    font: bold 30px Arial ;background-color: #4753DA;color: white;border: none;
+}
+input[type="button"]:hover{
+     background-color: rgb(236, 16, 16);
+}
+form > P {
+    font: normal 20px Arial ;color: #AEAEB0;margin-left: 50%;margin-top: 20px;
+}
+form > p > a{
+    text-decoration: none;font: bold 20px Arial ;
+}
+form > p >a:hover{
+    color:rgb(236, 16, 16) ;
+}
