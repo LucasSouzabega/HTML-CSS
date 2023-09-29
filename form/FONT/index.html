@@ -11,12 +11,27 @@
             padding: 0;
             box-sizing: border-box;
         }
+        #per{
+            border-radius: 100%;width: 200px;height: 200px;
+            background-color: #6F6DF5;
+            position: absolute;left: 50%;transform: translate(-50%);margin-top: 20px;
+        }
+        #per > .cabeca{
+            background-color: black;width: 75px;height: 75px;border-radius: 100%;position: relative;left: 50%;top: 35%;transform: translate(-50% , -35%);
+        }
+        #per > .corpo{
+            background-color: black;width: 150px;height: 80px;border-radius: 100%;position: relative;left: 50%;top: 30%;transform: translate(-50%,-20%);
+        }
     </style>
 </head>
 <body>
     <header></header>
     <nav></nav>
     <main>
+        <div id="per">
+            <div class="cabeca"></div>
+            <div class="corpo"></div>
+        </div>
         <form action="login">
             <label for="User_name">User Name </label><br>
             <input type="text" name="User_name" id="username"><br>

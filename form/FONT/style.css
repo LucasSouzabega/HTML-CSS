@@ -1,6 +1,6 @@
 /* confing form */
 form{
-    position: absolute;left: 50%;top: 50%;transform: translate(-50% , -50%);
+    position: absolute;left: 50%;top: 65%;transform: translate(-50% , -50%);
 }
 label{
     font: 200 40px Arial ;color: #AEAEB0;
