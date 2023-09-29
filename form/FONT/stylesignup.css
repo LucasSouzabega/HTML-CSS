@@ -26,7 +26,9 @@ form > a{
 }
 #bu1{
     background-color: rgb(43, 43, 253);
+    cursor: pointer;
 }
 #bu2{
     background-color: rgb(250, 17, 17);
+    cursor: pointer;
 }
