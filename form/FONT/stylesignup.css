@@ -1,0 +1,32 @@
+/*confing form */
+form{
+    position: absolute;left: 50%;top: 25%;transform: translate(-50%,-25%);
+    display: flex;flex-flow: column;justify-content: center;
+}
+form > label{
+    font: 300 30px Arial;color: rgb(168, 168, 168);
+}
+form > input{
+    width: 400px;height: 50px;outline: none;border: solid 2px rgb(168, 168,168);padding: 15px;
+    font: normal 25px Arial;
+}
+form > a{
+    text-decoration: none;font: bold 20px Arial;margin-top: 18px;
+}
+#but{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6px;
+    justify-content: center;
+}
+#but > button{
+    width: 200px;height: 40px;border: none;
+    font: normal 20px Arial;color: rgb(168, 168, 168);
+    
+}
+#bu1{
+    background-color: rgb(43, 43, 253);
+}
+#bu2{
+    background-color: rgb(250, 17, 17);
+}
